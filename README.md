@@ -1,8 +1,8 @@
 # Blackjack Rebuild  
 *A system recovery and input remapping project for a 7-inch ultra-portable device—documented with technical precision and narrative flair.*
 
-> “You don’t have to be perfect. You just have to keep going.”  
-> — Project Horizons
+> “Sometimes we just have to keep going because, otherwise, we might as well just die.”  
+> — P-21, *Project Horizons*, Chapter 3
 
 ---
 
