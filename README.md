@@ -1,59 +1,87 @@
-# Project: Blackjack  
-*A Recovery Log, A Tribute, A Testament to Resilience*
+# Blackjack Rebuild  
+*A system recovery and input remapping project for a 7-inch ultra-portable device—documented with technical precision and narrative flair.*
 
-> “We’re going to make this 7-inch laptop get off of the mattress.”
+> “You don’t have to be perfect. You just have to keep going.”  
+> — Project Horizons
+
+---
 
 ## 🖥️ Overview
 
-This repository documents the resurrection of a compact ultra-portable system—originally broken by Insider builds, obscure drivers, and a cascade of system failures. Rebuilt through persistence, creativity, and a little storytelling magic, the system has been renamed **Blackjack**, in honor of the protagonist from *Fallout: Equestria – Project Horizons*.
+This repository documents the recovery and customization of a compact 7-inch Windows 11 device—codenamed **Blackjack**—after instability caused by Insider builds and system-level failures. Through a combination of driver recovery, input remapping, and narrative-driven documentation, this project showcases both technical resilience and creative problem-solving.
 
-This is not just a recovery guide. It’s a story of survival.
+---
 
-## ⚙️ System Specs
+## 📁 Repository Structure
+
+| Folder         | Purpose |
+|----------------|---------|
+| `scripts/`     | Contains remap tools (`left click.exe`, `right click.exe`) and their AHK source files |
+| `drivers/`     | Placeholder for exported drivers from the working system |
+| `docs/`        | Recovery logs, system overview, and narrative notes (coming soon) |
+| `assets/`      | Screenshots and visual documentation (e.g., system tray, key identifier output) |
+
+---
+
+## 🧰 Included Tools
+
+### ✅ Input Remap Scripts
+
+- `left click.exe` / `right click.exe`: Executables that remap specific keyboard keys to mouse buttons
+- `.ahk` source files included for transparency and customization
+- `key-identifier.ahk`: Used to determine which scan codes correspond to the keyboard’s built-in mouse buttons
+
+These tools are essential for restoring full usability on a device with limited physical input options.
+
+---
+
+## 🧠 System Highlights
 
 | Component       | Details                                  |
 |-----------------|-------------------------------------------|
-| **CPU**         | Intel Celeron Gemini Lake @ 1.80GHz       |
+| **Device**      | 7" ultra-portable Windows 11 system       |
+| **CPU**         | Intel Celeron Gemini Lake                 |
 | **RAM**         | 12GB DDR4                                 |
-| **Storage**     | 2TB SATA M.2 2242 SSD                     |
-| **Display**     | 7" 1280x800 touchscreen (portrait-native) |
-| **Graphics**    | Intel UHD 600                             |
-| **Audio**       | Intel Smart Sound Technology (SST)        |
-| **I/O**         | USB-A 3.0 (x2), MicroSD, 3.5mm audio, Mini HDMI, hidden USB-C |
+| **Storage**     | 2TB SATA M.2 SSD                          |
+| **Display**     | 1280x800 touchscreen (portrait-native)    |
+| **Input**       | Touchscreen + remapped keyboard buttons   |
 | **OS**          | Windows 11 Pro (Insider build, queued for unenrollment) |
 
-## 🔧 Recovery Process
+---
 
-- Reclaimed USB drive from fragmented Linux partitions using MiniTool Partition Wizard
-- Created bootable Windows 11 installer on 32GB USB (FAT32)
-- Launched `setup.exe` from within Windows due to boot menu issues
-- Performed in-place reinstall with “Keep files” option
-- Recovered touchscreen functionality and remap scripts (`left click.exe`, `right click.exe`)
-- Paused Windows Update and queued for Insider unenrollment
+## 📸 Screenshots
 
-## 🧠 Philosophy
+![System Tray with Remap Tools Running](assets/screenshots/system-tray-remap.png)  
+*Both `left click.exe` and `right click.exe` active in the system tray.*
 
-> “Her talent wasn’t winning. It was surviving.”
+---
 
-Blackjack’s story isn’t about perfection—it’s about persistence. This system, like its namesake, was broken, patched, and pushed beyond its limits. But it still stands. This repo is a tribute to that spirit: of rebuilding, adapting, and carrying forward something meaningful.
+## 📖 Coming Soon
 
-## 📁 Repo Contents
+- `docs/recovery-log.md`: A detailed timeline of the reinstall process, driver recovery, and system stabilization
+- `docs/system-overview.md`: Hardware quirks, boot behavior, and touchscreen calibration notes
+- `docs/lore-notes.md`: Narrative entries inspired by *Fallout: Equestria – Project Horizons*
 
-- `drivers/`: Exported drivers from the working system
-- `scripts/`: Remap tools and source files
-- `docs/`: Recovery logs, system overview, and lore entries
-- `assets/`: Optional screenshots or diagrams
+---
 
 ## 🧾 Status Log
 
 > **07/06/2025 – 23:xx EDT**  
 > System reinstalled.  
 > Touchscreen functional.  
-> `left click.exe` and `right click.exe` online.  
+> Remap scripts online.  
 > Explorer recovered.  
 > Blackjack is awake.
 
 ---
 
-> “You don’t have to be perfect. You just have to keep going.”
+## 🧠 Philosophy
+
+This project is a tribute to resilience—both technical and personal. Inspired by the journey of Blackjack from *Project Horizons*, this system was broken, patched, and brought back to life through persistence and creativity.
+
+---
+
+## 📎 License
+
+MIT License (or your preferred license—add `LICENSE.md` if needed)
 
